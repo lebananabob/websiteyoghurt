@@ -1,61 +1,45 @@
 
-header{
-    font-size: larger;
-    background-color: rgb(250, 244, 227);
-    font-family: Poppins;
+header {
+    text-align: center;
+    background-color: rgb(185, 203, 235);
     display: flex;
+    font-family: Annie Use Your Telescope;
     justify-content: space-between;
-    align-items: center;
 }
+
 nav a{
-    color: rgb(207, 44, 44);
+    color: rgb(117, 135, 172);
+    padding: 10px 15px;
     text-decoration: none;
-    gap: 25px;
-    padding: 20px;
+    
 }
 .banner{
-    margin: 0px;
+    
     padding: 10px 20px;
 }
 
 .home{
-    background-image: url("background home.png");
-    height: 100vh; 
-    background-size: cover; 
-    background-position: center 90%;
-    background-repeat: no-repeat;
-    margin: 0px;
-    
+    background-image: url();
+    height: 800px; 
+    background-size: 1000px; 
+    padding: top 5px;
 }
 
 .deschome{
     width:40%;
     font-size:20px;
     margin-left:20px;
-    & h1 {
-        color: rgb(63, 54, 34);
-        font-family: Castoro Titling;
-        margin: 0px;
-        padding: 15px ;
-        font-size: 300%;
-        white-space: nowrap;
-    }  
+    & h3{
+          color: aquamarine;
+    }
     & p{
-        color:rgb(71, 77, 56);
-        font-family: Special Elite;
-        padding: 0px 15px;
+        color:aqua
+        
     }
 }
-.logo img{
-    width:150px;
-    padding: 5px 30px ;
-}
-
 nav a:hover{
-    color: rgb(116, 146, 91);
-    background-color: rgb(231, 226, 209);
-    border-radius: 30px 30px 30px 0px;
-    padding:15px 20px;
+    background-color: rgb(209, 221, 253);
+    padding: 10px 20px;
     transition: 0.5s;
 }
 nav{
